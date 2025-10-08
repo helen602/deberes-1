@@ -8,20 +8,20 @@ body {
 
 header {
     background-color: antiquewhite;
-    background-image: url(imagenes-ecuador/bandera22.png);
+    background-image: url(../imagenes-ecuador/bandera22.png);
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 600px 50px 20px 20px;
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
-    align-items: right; */
+    align-items: right;
 }
 
 nav {
 
-    /* width: 100vw; */
+    width: 100vw;
     position: sticky;
     top: 0;
     background-color: aqua;
@@ -57,31 +57,12 @@ nav li a {
     text-transform: uppercase;
     font-size: 20px;
 
- }
+}
 
 nav li a:hover {
     background-color: blueviolet;
     color: rgb(194, 184, 204);
 }
-
-
-
-header {
-    background-color: antiquewhite;
-    background-image: url(imagenes-ecuador/regiones\ de\ ecuador\ cos\ sie\ ama\ ins.jpg);
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 600px 50px 20px 20px;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: right; */
-}
-
-
-
-
 
 
 h1 {
@@ -93,8 +74,6 @@ h1 {
     padding-right: 50px;
     margin-top: 50px;
 }
-
-
 
 header a {
     border: 1px green;
@@ -112,6 +91,25 @@ main {
     /*min-width:;*/
     margin: 0 auto;
 }
+
+
+section img {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    container: center;
+
+
+}
+
+#Informacion-general img{
+   height: 50px;
+    width: 50px;
+    align-items: center;
+
+}
+
+
 
 footer {
     background-color: rgb(38, 59, 47);
