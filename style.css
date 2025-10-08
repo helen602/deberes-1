@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+header {
+    background-color: antiquewhite;
+    background-image: url(imagenes-ecuador/bandera22.png);
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 600px 50px 20px 20px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: right; */
+}
+
+nav {
+
+    /* width: 100vw; */
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav img {
+    height: 100px;
+    width: 100px;
+
+}
+
+nav ul {
+
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav li a {
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+ }
+
+nav li a:hover {
+    background-color: blueviolet;
+    color: rgb(194, 184, 204);
+}
+
+
+
+header {
+    background-color: antiquewhite;
+    background-image: url(imagenes-ecuador/regiones\ de\ ecuador\ cos\ sie\ ama\ ins.jpg);
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 600px 50px 20px 20px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: right; */
+}
+
+
+
+
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: 100;
+    font-weight: 400;
+    font-style: 400;
+    font-size: 200;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+
+
+header a {
+    border: 1px green;
+    border-radius: 300px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: none 300ms ease-out;
+}
+
+main {
+    max-width: 80%;
+    /*min-width:;*/
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(38, 59, 47);
+    background-image: linear-gradient(45deg, blue 0%, white 80%, blue 100%);
+    padding: 150px;
+}
+
+#boton-arriba:hover {
+    background-color: rgb(199, 96, 190);
+    border-style: none;
+    width: 43px;
+    height: 43px;
+
+}
