@@ -4,6 +4,7 @@ body {
     line-height: 1.5;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    background-color: rgb(201, 245, 248);
 }
 
 header {
@@ -22,8 +23,9 @@ header {
 nav {
 
     width: 100vw;
+    height: 100px;
     position: sticky;
-    top: 0;
+    top: auto;
     background-color: aqua;
     padding: 20px 20px;
     display: flex;
@@ -48,7 +50,6 @@ nav ul {
 
 nav li {
     list-style: none;
-
 }
 
 nav li a {
@@ -64,6 +65,10 @@ nav li a:hover {
     color: rgb(194, 184, 204);
 }
 
+.mapa{
+    width: 500px;
+    height: 500px;
+}
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -74,6 +79,7 @@ h1 {
     padding-right: 50px;
     margin-top: 50px;
 }
+
 
 header a {
     border: 1px green;
@@ -94,33 +100,22 @@ main {
 
 
 section img {
-    height: 50px;
-    width: 50px;
+    height: 500px;
+    width: 500px;
     align-items: center;
-    container: center;
-
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: space-around;
 
 }
 
 #Informacion-general img{
-   height: 50px;
-    width: 50px;
-    align-items: center;
 
-}
+    height: 400px;
+    width: 500px;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-content: center;
+    
 
-
-
-footer {
-    background-color: rgb(38, 59, 47);
-    background-image: linear-gradient(45deg, blue 0%, white 80%, blue 100%);
-    padding: 150px;
-}
-
-#boton-arriba:hover {
-    background-color: rgb(199, 96, 190);
-    border-style: none;
-    width: 43px;
-    height: 43px;
-
-}
+    }
