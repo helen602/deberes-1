@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 10;
+    padding: 0;
     line-height: 1.5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(0, 160, 147);
@@ -8,28 +8,17 @@ body {
     }
 
     header {
-    background-color: antiquewhite;
-    background-image: url(../imagenes-ecuador/images\ juan\ pueblo.png);
+    background-image: url(../imagenes-ecuador/las-penas-guayaquil-1.webp);
     max-width: 200%;
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 50px 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: right;
-}
+     }
 
 nav {
-
     width: 100vw;
     height: 100px;
-    position: sticky;
-    top: auto;
-    background-color: aqua;
-    padding: 20px 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
+    }  
+    
