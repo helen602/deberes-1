@@ -2,91 +2,80 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(7, 29, 27);
-    background-color: rgb(201, 245, 248);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #242121;
+    background-color: hsl(210, 16%, 93%)
     }
 
-    header {
-    background-color: antiquewhite;
-    background-image: url(../imagenes-ecuador/image\ de\ guayaquil.webp);
-    max-width: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 200px 50px 20px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-     }
+    header{
+        background-color: #4CAF50;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+    }
+    header{
+     font-size: 50px;
+    }
+    nav ul li a{
+        font-size: 50px;
+    }
 
-nav {
-    width: 100vw;
-    height: 50px;
-    background-color: rgb(73, 186, 214);
-    padding: 30px 30px;
-    justify-content: last baseline;
-    align-items: center;
-    font-size: 30px;
+   nav{
+    background-color: #74a8d8;
+   }
+   nav{
+    list-style-type: none;
+    margin: o ;
+    padding: 4%;
+    overflow: hidden;
+   }   
+nav ul li{
+    float: left;
 }
 
-nav img{
-    height: 200px;
-    width: 200px;
+nav ul li a{
+    display: block;
+    color: rgb(209, 188, 188);
+    text-align: center;
 }
+nav ul li a {
+    background-color: #131012d3;
 
-.mapa{
-    width: 300px;
-    height: 300px;
-    padding: 50px;
 }
-
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-optical-sizing: 100;
-    font-weight: 200;
-    font-style: 200;
-    font-size: 200;
-    padding-right: 100px;
-    margin-top: 100px;
-    justify-content: center;
-}
-
-
-header a {
-    border: 1px green;
-    border-radius: 300px;
-    color: rgb(143, 71, 71);
-    padding: 10px;
-    text-decoration: none;
-    font-size: 30px;
-    text-transform: uppercase;
-    transition: none 300ms ease-out;
-}
-
 main {
-    max-width: 80%;
-    /*min-width:;*/
-    margin: 0 auto;
+    padding: 30px;
 }
 
-
-section img {
-    height: 300px;
-    width: 300px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    justify-content: space-around;
-
+#Informacion de Guayaquil {
+    background-color: #f9f9f9; 
+    padding: 100px;             
+    margin: 20px auto;         
+    border: 1px solid #ccc;    
+    max-width: 500px;          
+    border-radius: 10px;        
 }
 
-#Informacion-general img{
+#Informacion de Guayaquil h1 {
+    color: #0056b3;        
+    font-size: 2.5rem;     
+    border-bottom: 2px solid #0056b3; 
+    padding-bottom: 100px;  
+}
 
-    height: 400px;
-    width: 500px;
-    justify-content: space-around;
-    justify-content: space-between;
-    align-content: center;
-    
+#Informacion de Guayaquil p {
+    line-height: 1.6;      
+    color: #333;           
+    margin-bottom: 20px;   
+}
 
-    }
+#Informacion de Guayaquil img {
+    max-width: 100%;       
+    height: 100px;          
+    display: block;        
+    margin: 0 auto;        
+    border-radius: 8px;    
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+#informaciomde Guayaquil{
+
+}

@@ -1,122 +1,47 @@
-body {
+body{
     margin: 0;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1,5;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
-    background-color: rgb(201, 245, 248);
+    color: rgba(17, 49, 49, 0.932);
 }
 
-header {
-    background-color: antiquewhite;
+header{
+
+    background-color: rgb(10, 196, 196);
     background-image: url(../imagenes-ecuador/bandera22.png);
-    max-width: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 600px 50px 20px 20px;
+    max-width: 100px;
+    padding: 650px 650px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: right;
 }
 
+header img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 5px 50px 6px;
+    display: inline-block;  ºq  
+    vertical-align: top;
+}
 nav {
-
-    width: 100vw;
-    height: 100px;
+    background-color: rgb(175, 194, 194);
     position: sticky;
-    top: auto;
-    background-color: aqua;
-    padding: 20px 20px;
+    top: 0;
+    padding: 10px  20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
+    border-bottom: 3px violet;
 }
-
-nav img {
-    height: 100px;
-    width: 100px;
-
-}
-
-nav ul {
-
-    display: flex;
+nav img{
+    height: 80px;
+    border-radius: 20px;
     gap: 50px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav li {
-    list-style: none;
-}
-
-nav li a {
-    padding: 8px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-
-}
-
-nav li a:hover {
-    background-color: blueviolet;
-    color: rgb(194, 184, 204);
 }
 
 
-.mapa{
-    width: 500px;
-    height: 500px;
-}
-
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-optical-sizing: 100;
-    font-weight: 400;
-    font-style: 400;
-    font-size: 200;
-    padding-right: 50px;
-    margin-top: 50px;
-}
-
-
-header a {
-    border: 1px green;
-    border-radius: 300px;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 30px;
-    text-transform: uppercase;
-    transition: none 300ms ease-out;
-}
-
-main {
-    max-width: 80%;
-    /*min-width:;*/
-    margin: 0 auto;
-}
-
-
-section img {
-    height: 500px;
-    width: 500px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    justify-content: space-around;
-
-}
-
-#Informacion-general img{
-
-    height: 400px;
-    width: 500px;
-    justify-content: space-around;
-    justify-content: space-between;
-    align-content: center;
-    
-
-    }
