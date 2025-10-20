@@ -5,10 +5,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: rgba(17, 49, 49, 0.932);
 }
-
-header{
-
-    background-color: rgb(10, 196, 196);
+header {
+    background-color: antiquewhite;
     background-image: url(../imagenes-ecuador/bandera22.png);
     background-size: cover;
     background-position: center;
@@ -21,27 +19,127 @@ header{
     align-items: right;
 }
 
-header img{
-    width: 300px;
-    height: 300px;
-    border-radius: 20px 5px 50px 6px;
-    display: inline-block;  ºq  
-    vertical-align: top;
-}
 nav {
-    background-color: rgb(175, 194, 194);
+    width: 100vw;
+    height: 100px;
     position: sticky;
-    top: 0;
-    padding: 10px  20px;
+    top: auto;
+    background-color: aqua;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img {
+    height: 100px;
+    width: 100px;
+}
+
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 3px violet;
 }
-nav img{
-    height: 80px;
-    border-radius: 20px;
-    gap: 50px;
+nav li {
+    list-style: none;
+}
+nav li a {
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav ul li {
+    background: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+}
+section img {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: space-around;
+}
+/* Estilos globales para el cuerpo de la página */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+/* Estilo para los encabezados */
+h1 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+}
+/* Estilo para las secciones principales */
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* Estilo para las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+ul strong{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+    /* display: block; Para centrar la imagen si es necesario */
+}
+
+/* Estilos específicos para cada región */
+#turismo-destacado h1 {
+    color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+#turismo h1 {
+    color: #f39c12;
+    border-color: #f39c12;
+}
+
+#Islas h1 {
+    color: #3498db;
+    border-color: #3498db;
+}
+
+#Selva h1 {
+    color: #27ae60;
+    border-color: #27ae60;
+}
+
+/* Estilo para el párrafo inicial */
+section p {
+    line-height: 1.6;
+}
+
+/* Estilo de los encabezados de lista dentro de las secciones */
+section ul h1 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
