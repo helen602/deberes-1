@@ -7,75 +7,87 @@ body {
     background-color: hsl(210, 16%, 93%)
     }
 
-    header{
-        background-color: #4CAF50;
-        color: white;
-        padding: 100px 0;
-        text-align: center;
-    }
-    header{
-     font-size: 50px;
-    }
-    nav ul li a{
-        font-size: 50px;
+
+    header {
+    background-color: antiquewhite;
+    background-image: url(../imagenes-ecuador/gauayaquil\ 9\ de\ octubre.webp);
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: flex-start;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 50px 20px 20px;
+    height: 50px;
     }
 
-   nav{
-    background-color: #74a8d8;
-   }
-   nav{
-    list-style-type: none;
-    margin: o ;
-    padding: 4%;
-    overflow: hidden;
-   }   
-nav ul li{
-    float: left;
+    
+    nav image:after
+    border-image: auto;
+    background-color: rgb(73, 186, 214);
+    padding: 30px 30px;
+    justify-content: last baseline;
+    align-items: center;
+    font-size: 30px;
+{
+section img {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    justify-content: space-around;
+}
+.imagen-ancha {
+  width: 500px;
+  height: 200px;
 }
 
-nav ul li a{
-    display: block;
-    color: rgb(209, 188, 188);
-    text-align: center;
-}
-nav ul li a {
-    background-color: #131012d3;
 
+nav img{
+    height: 200px;
+    width: 200px;
 }
+
+.mapa{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: 100;
+    font-weight: 200;
+    font-style: 200;
+    font-size: 200;
+    padding-right: 100px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+header a {
+    border: 1px green;
+    border-radius: 300px;
+    color: rgb(143, 71, 71);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: none 300ms ease-out;
+}
+
 main {
-    padding: 30px;
+    max-width: 80%;
+    /*min-width:;*/
+    margin: 0 auto;
 }
 
-#Informacion de Guayaquil {
-    background-color: #f9f9f9; 
-    padding: 100px;             
-    margin: 20px auto;         
-    border: 1px solid #ccc;    
-    max-width: 500px;          
-    border-radius: 10px;        
-}
+#Informacion-general img{
 
-#Informacion de Guayaquil h1 {
-    color: #0056b3;        
-    font-size: 2.5rem;     
-    border-bottom: 2px solid #0056b3; 
-    padding-bottom: 100px;  
-}
-
-#Informacion de Guayaquil p {
-    line-height: 1.6;      
-    color: #333;           
-    margin-bottom: 20px;   
-}
-
-#Informacion de Guayaquil img {
-    max-width: 100%;       
-    height: 100px;          
-    display: block;        
-    margin: 0 auto;        
-    border-radius: 8px;    
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-}
-#informaciomde Guayaquil{
-
-}
+    height: 400px;
+    width: 500px;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-content: center;
+    }
