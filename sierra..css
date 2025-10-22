@@ -1,0 +1,100 @@
+body{
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header y navegación */
+header nav {
+    display: flex;
+    align-items: center;
+    background-color: #dcedc8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Imagen del header (logo o foto) */
+header nav img {
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Si tienes links en navegación */
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #33691e;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #aed581;
+    color: #1b5e20;
+}
+
+/* Estilo para todas las secciones */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1 {
+    color: #33691e;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-weight: normal;
+}
+
+/* Imágenes dentro de secciones */
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* Ajuste general para imágenes que están fuera de secciones */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+   
+}

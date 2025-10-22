@@ -1,155 +1,106 @@
-/* Estilos globales */
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* un azul muy claro */
+    color: #e2d2d2;
     margin: 0;
-    line-height: 1.5;
-    background-color: #f0f2f5;
-    color: #dae2d8ad;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
 }
-
-/* Estilos para el encabezado */
 header {
-    background-color: #00796b; /* Un tono de verde azulado */
-    background-image: url(../imagenes-ecuador/gauayaquil\ 9\ de\ octubre.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content: space-between;
-    align-items: flex-start;
+    background-color: antiquewhite;
+    background-image: url(../imagenes-ecuador/-rotonda-Malecon-2000-Guayaquil-Ecuador-iStock-1206936770-640x419.webp);
     background-size: cover;
-    color: rgb(2, 1, 1);
-    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* max-width: 500px; */
+    padding: 30px 30px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilos para la barra de navegación */
-nav {
-    background-color: #00897b; /* Un verde un poco más claro */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav ul {
-    list-style: none; /* Elimina las viñetas por defecto */
-    margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: center; /* Centra los elementos del menú */
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+/* Estilo para el header (vacío por ahora) */
+/*header {/*
+    background-color: #0077b6;
+    height: 60px;
+    margin-bottom: 20px;
 }
 
-nav li a {
-    display: block; /* Hace que el enlace ocupe todo el espacio del <li> */
-    padding: 15px 25px;
-    text-decoration: none; /* Elimina el subrayado */
+/* Estilo para la navegación */
+nav {
+    
+    padding: 15px;
+    margin: 0 ;
+    background-color: #b693ad;
+    display: flex;
+    /*justify-content:space-around;*/ 
+    align-items: center;
+    position: sticky;
+    justify-content:space-between;
+
+
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
     color: white;
+    text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
+    font-size: 18px;
+    display:  inline-block;
     transition: background-color 0.3s ease;
+    border-radius: 6px;
+    padding: 5px 10px;
 }
 
-nav li a:hover {
-    background-color: #004d40; /* Color de fondo al pasar el cursor */
+nav ul li a:hover {
+    background-color: #90e0ef;
+    color: #a3adbb;
 }
 
-/* Estilos para el contenido principal */
+nav img {
+    width: 60px;
+}
+
+/* Estilo para main y secciones */
 main {
     max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin: 0 auto;
 }
 
-/* Estilos para la sección */
-section#Informacion-de-Guayaquil {
-    padding: 20px 0;
+section {
+    background-color: rgb(90, 49, 49);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(236, 232, 232, 0.1);
 }
 
-/* Estilos para el título de la sección */
-section#Informacion-de-Guayaquil h1 {
-    color: #00796b;
-    border-bottom: 2px solid #00897b;
-    padding-bottom: 10px;
+/* Títulos de sección */
+h1 {
+    color: #cbd8d3;
+    margin-bottom: 15px;
 }
 
-/* Estilos para la imagen */
-img {
-    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
-    height: auto;
-    display: block;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-/* Estilos generales */
-body {
-    font-family:Georgia, 'Times New Roman', Times, serif
+/* Párrafos */
+p {
+    font-size: 16px;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-/* Estilo para el encabezado */
-header {
-    background-color: #004d40;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-/* Estilo para la barra de navegación */
-nav ul {
-    list-style: none; /* Elimina las viñetas */
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #00695c;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    padding: 1rem 1.5rem;
-    transition: background-color 0.3s ease;
-}
-
-nav li a:hover {
-    background-color: #00897b;
-}
-
-/* Estilo para el contenido principal */
-main {
-    padding: 2rem;
-    max-width: 960px;
-    margin: 2rem auto;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 8px;
-}
-
-/* Estilo para la sección de información */
-section#Informacion-de-Guayaquil {
-    padding-bottom: 2rem;
-}
-
-section h1 {
-    color: #004d40;
-    border-bottom: 2px solid #00897b;
-    padding-bottom: 0.5rem;
-}
-
-/* Estilo para la imagen */
-img {
+/* Imágenes dentro de sección */
+section img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin-top: 1rem;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
     
    
