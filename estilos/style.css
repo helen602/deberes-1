@@ -1,0 +1,41 @@
+/* ESTILOS GENERALES */
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para main y secciones */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(236, 232, 232, 0.1);
+}
+
+section img{
+    max-width: 48%;
+    max-height: 300px;
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+h1{
+      color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 0.5rem;
+}
+
+.mapa{
+    display: block;
+    max-width: 100%;
+    max-height: none;
+}
