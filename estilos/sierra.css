@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(7, 29, 27);
     background-color: rgb(201, 245, 248);
     }
@@ -21,3 +21,48 @@ body {
     align-items: center;
     height: 800px;
 }
+av {
+    
+    padding: 15px;
+    margin: 0 ;
+    background-color: #ad7c9f;
+    display: flex;
+    /*justify-content:space-around;*/
+    align-items: center;
+    position: sticky;
+    justify-content:space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(54, 10, 10);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    display:  inline-block;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #51d6d6;
+    color: #070e16;
+}
+
+nav img {
+    width: 60px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+

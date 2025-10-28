@@ -53,3 +53,51 @@ header {
     background-repeat: no-repeat;
     height: 800px;
 }
+av {
+    
+    padding: 15px;
+    margin: 0 ;
+    background-color: #ad7c9f;
+    display: flex;
+    /*justify-content:space-around;*/ 
+    align-items: center;
+    position: sticky;
+    justify-content:space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    display:  inline-block;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #51d6d6;
+    color: #070e16;
+}
+
+nav img {
+    width: 60px;
+}
+
+header {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}

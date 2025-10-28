@@ -2,7 +2,7 @@
 
 /* Estilos generales para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -38,4 +38,12 @@ h1{
     display: block;
     max-width: 100%;
     max-height: none;
+}
+
+.redsoc {
+     font-size: 20px;
+}
+address{
+    font-style: normal;
+    text-align: center;
 }
