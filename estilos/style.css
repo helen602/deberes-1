@@ -47,3 +47,65 @@ address{
     font-style: normal;
     text-align: center;
 }
+strong {}
+
+main {
+    max-width: 80%;
+    /*min-width:;*/
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(38, 59, 47);
+    background-image: linear-gradient(45deg, blue 0%, white 80%, blue 100%);
+    padding: 50px;
+
+}
+
+#boton-arriba {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid;
+    padding: 5px;
+    background-color: rgb(187, 93, 109);
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+
+#boton-arriba:hover {
+    background-color: rgb(199, 96, 190);
+    border-style: none;
+    width: 43px;
+    height: 43px;
+
+}
+
+.contacto svg {
+    width: 20px;
+    height: 20px;
+}
+
+.contacto {
+    color: aliceblue;
+}
+
+/*footer organizado conn flex*/
+#contenedor-cajas footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#caja-contacto {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#caja-copy {
+    text-align: center;
+}
+
+
+;
