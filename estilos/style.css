@@ -18,6 +18,8 @@ section {
     padding: 50px;
     border-radius: 30px;
     box-shadow: 0 2px 8px rgba(236, 232, 232, 0.1);
+    background-color: rgb(210, 236, 229);
+    margin: 30px 0;
 }
 
 section img{
