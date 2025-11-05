@@ -14,6 +14,11 @@ p {
     font-size: 16px;
     line-height: 1.6;
 }
+.galeria.sola{
+  display: block;
+  margin: auto;
+}
+
 /* ESTILOS GENERALES */
 
 /* Estilos generales para el cuerpo de la página */
@@ -97,7 +102,6 @@ footer {
     border-style: none;
     width: 43px;
     height: 43px;
-
 }
 
 .contacto svg {
@@ -116,7 +120,6 @@ footer {
 }
 
 #caja-contacto {
-
     display: flex;
     flex-direction: column;
 }

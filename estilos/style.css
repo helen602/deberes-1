@@ -2,127 +2,141 @@
 
 /* Estilos generales para el cuerpo de la página */
 body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 /* Estilo para main y secciones */
 main {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 section {
-    padding: 50px;
-    border-radius: 30px;
-    box-shadow: 0 2px 8px rgba(236, 232, 232, 0.1);
-    background-color: rgb(210, 236, 229);
-    margin: 30px 0;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(236, 232, 232, 0.1);
+  background-color: rgb(210, 236, 229);
+  margin: 30px 0;
 }
 
-section>img{
-    max-width: 48%;
-    max-height: 300px;
-    margin-top: 1rem;
-    border: 1px solid #ddd;
-    padding: 5px;
+section>img {
+  max-width: 48%;
+  max-height: 300px;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  padding: 5px;
 }
 
-h1{
-      color: #0056b3;
-    border-bottom: 2px solid #0056b3;
-    padding-bottom: 0.5rem;
+h1 {
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 0.5rem;
 }
 
-section>.mapa{
-    display: block;
-    max-width: 100%;
-    max-height: none;
+section>.mapa {
+  display: block;
+  max-width: 100%;
+  max-height: none;
 }
 
 .redsoc {
-     font-size: 20px;
+  font-size: 20px;
 }
-address{
-    font-style: normal;
-    text-align: center;
+
+address {
+  font-style: normal;
+  text-align: center;
 }
+
 strong {}
 
 main {
-    max-width: 80%;
-    /*min-width:;*/
-    margin: 0 auto;
+  max-width: 80%;
+  /*min-width:;*/
+  margin: 0 auto;
 }
 
 footer {
-    background-color: rgb(38, 59, 47);
-    background-image: linear-gradient(45deg, blue 0%, white 80%, blue 100%);
-    padding: 50px;
+  background-color: rgb(38, 59, 47);
+  background-image: linear-gradient(45deg, blue 0%, white 80%, blue 100%);
+  padding: 50px;
 
 }
 
 #boton-arriba {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    border: 2px solid;
-    padding: 5px;
-    background-color: rgb(187, 93, 109);
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid;
+  padding: 5px;
+  background-color: rgb(187, 93, 109);
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
 }
 
 #boton-arriba:hover {
-    background-color: rgb(199, 96, 190);
-    border-style: none;
-    width: 43px;
-    height: 43px;
+  background-color: rgb(199, 96, 190);
+  border-style: none;
+  width: 43px;
+  height: 43px;
 
 }
 
 .contacto svg {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .contacto {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 /*footer organizado conn flex*/
 #contenedor-cajas footer {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 #caja-contacto {
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #caja-copy {
-    text-align: center;
+  text-align: center;
 }
 
 /* estilo del contenedor */
 .galeria {
-  width: 535px; /* debemos dar un ancho fijo */
+  height: 300px;
   margin: 20px auto;
-  overflow: hidden; /* ocultamos lo que sobresalga de las imágenes del contenedor*/
+  overflow: hidden;
+  /* ocultamos lo que sobresalga de las imágenes del contenedor*/
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
   border: 7px solid rgba(189, 188, 188, 0.6);
 }
 
+.gal-5 {
+  width: 535px;
+}
+
+.gal-7 {
+  width: 635px;
+}
+
 /* estilo para las imágenes de la galería */
 .galeria figure {
-  position: absolute; /* hace que se superpongan las imágenes */
-  top: 0; /* colocamos todas arriba */
-  left: 50px; /* !!Ancho de la parte visible!! */
+  position: absolute;
+  /* hace que se superpongan las imágenes */
+  top: 0;
+  /* colocamos todas arriba */
+  left: 50px;
+  /* !!Ancho de la parte visible!! */
   width: 335px;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
   -webkit-transition: all 0.3s ease-in-out;
@@ -130,6 +144,8 @@ footer {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+   height: 100%;
+  object-fit: cover;
 }
 
 /* estilo inicial para la primera imagen. > selector de hijo directo */
@@ -142,8 +158,6 @@ footer {
 .galeria img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 /* estilo para los "controles de navegación" */
@@ -151,7 +165,8 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50px; /* para cubrir la parte visible de la imagen */
+  width: 50px;
+  /* para cubrir la parte visible de la imagen */
   height: 100%;
   cursor: pointer;
   border: 0;
@@ -173,14 +188,14 @@ footer {
 }
 
 /* mueve las imagenes a la izquierda. ~ selecciona los hermanos siguientes al elemento */
-.galeria input:checked ~ figure {
- -webkit-transition: all 0.7s ease-in-out;
+.galeria input:checked~figure {
+  -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
   -ms-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
   left: 335px;
-} 
+}
 
 /* estilo para la descripción de las imágenes */
 .galeria figcaption {
@@ -194,7 +209,7 @@ footer {
   -o-transition: all 0.2s linear;
   -ms-transition: all 0.2s linear;
   transition: all 0.2s linear;
-} 
+}
 
 .galeria figcaption span {
   position: absolute;
@@ -206,7 +221,7 @@ footer {
   text-align: center;
   background: rgba(87, 73, 81, 0.3);
   line-height: 20px;
-  font-size: 18px; 
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 700;
@@ -216,15 +231,15 @@ footer {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
-} 
+}
 
-.galeria input:checked + figcaption,
-.galeria input:checked:hover + figcaption {
+.galeria input:checked+figcaption,
+.galeria input:checked:hover+figcaption {
   background: rgba(87, 73, 81, 0);
 }
 
 /* hacemos visible el texto de descripción. + selector de hermano adyacente */
-.galeria input:checked + figcaption span {
+.galeria input:checked+figcaption span {
   -webkit-transition: all 0.4s ease-in-out 0.5s;
   -moz-transition: all 0.4s ease-in-out 0.5s;
   -o-transition: all 0.4s ease-in-out 0.5s;
@@ -234,22 +249,22 @@ footer {
   filter: alpha(opacity=99);
   opacity: 1;
   top: 50%;
-} 
+}
 
-.galeria #ia-selector-last:checked + figcaption span {
+.galeria #ia-selector-last:checked+figcaption span {
   -webkit-transition-delay: 0.3s;
   -moz-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
   -ms-transition-delay: 0.3s;
   transition-delay: 0.3s;
-} 
+}
 
 /* sombra al hacer hover sobre input */
-.galeria input:hover + figcaption {
+.galeria input:hover+figcaption {
   background: rgba(87, 73, 81, 0.3);
 }
 
-.galeria input:checked ~ figure input {
+.galeria input:checked~figure input {
   z-index: 1;
 }
 
@@ -271,14 +286,14 @@ figure {
     width: 40px;
   }
 
-  .galeria input:checked ~ figure {
+  .galeria input:checked~figure {
     left: 260px;
   }
 
   .galeria figcaption span {
     font-size: 16px;
   }
-} 
+}
 
 @media screen and (max-width: 520px) {
   .galeria {
@@ -294,7 +309,7 @@ figure {
     width: 20px;
   }
 
-  .galeria input:checked ~ figure {
+  .galeria input:checked~figure {
     left: 180px;
   }
 
@@ -306,6 +321,7 @@ figure {
   }
 }
 
-html, input {
+html,
+input {
   font-family: sans-serif;
 }
