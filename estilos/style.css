@@ -23,9 +23,11 @@ section {
 }
 
 section>img {
+  display: block;
   max-width: 48%;
   max-height: 300px;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  margin: 1rem auto;
   border: 1px solid #ddd;
   padding: 5px;
 }
@@ -121,13 +123,17 @@ footer {
   border: 7px solid rgba(189, 188, 188, 0.6);
 }
 .gal-4 {
-  width: 535px;
+  width: 485px;
 }
 
 
 .gal-5 {
   width: 535px;
 }
+.gal-6{
+  width: ;
+}
+
 
 .gal-7 {
   width: 635px;
@@ -162,6 +168,8 @@ footer {
 .galeria img {
   display: block;
   width: 100%;
+    height: 100%;
+  object-fit: cover;
 }
 
 /* estilo para los "controles de navegación" */
