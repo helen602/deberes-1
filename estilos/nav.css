@@ -4,7 +4,7 @@ nav {
     
     padding: 15px;
     margin: 0 ;
-    background-color: #ad7c9f;
+    background-color: #a7e7aa;
     display: flex;
     /*justify-content:space-around;*/ 
     align-items: center;
@@ -34,7 +34,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #51d6d6;
-    color: #070e16;
+    color: #9ebde0;
 }
 
 nav img {
@@ -54,4 +54,9 @@ header {
 address{
     font-style: normal;
     text-align: center;
+}
+
+.mapa {
+  width: 50%;    /* ocupa la mitad del contenedor */
+  height: 300px; /* ajusta la altura */
 }
