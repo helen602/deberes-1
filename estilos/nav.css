@@ -4,7 +4,7 @@ nav {
     
     padding: 15px;
     margin: 0 ;
-    background-color: #a7e7aa;
+    background-color: #a14dd242;
     display: flex;
     /*justify-content:space-around;*/ 
     align-items: center;
@@ -21,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color:blue;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -33,7 +33,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #51d6d6;
+    background-color: #d651a576;
     color: #9ebde0;
 }
 

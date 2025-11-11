@@ -18,7 +18,7 @@ section {
   padding: 50px;
   border-radius: 30px;
   box-shadow: 0 2px 8px rgba(236, 232, 232, 0.1);
-  background-color: rgb(210, 236, 229);
+  background-color: rgb(202, 225, 219);
   margin: 30px 0;
 }
 
@@ -33,8 +33,8 @@ section>img {
 }
 
 h1 {
-  color: #438ad6e0;
-  border-bottom: 2px solid #b0e7be;
+  color: #0f1c2ae0;
+  border-bottom: 2px solid #39375084;
   padding-bottom: 0.5rem;
 }
 
@@ -62,7 +62,7 @@ main {
 }
 
 footer {
-  background-color: rgb(58, 233, 189);
+  background-color: rgb(194, 245, 232);
   background-image: linear-gradient(45deg, blue 0%, white 80%, blue 100%);
   padding: 50px;
 
@@ -81,7 +81,7 @@ footer {
 }
 
 #boton-arriba:hover {
-  background-color: rgb(199, 96, 190);
+  background-color: rgb(237, 195, 234);
   border-style: none;
   width: 43px;
   height: 43px;
@@ -125,16 +125,12 @@ footer {
 .gal-4 {
   width: 485px;
 }
-
-
 .gal-5 {
   width: 535px;
 }
 .gal-6{
   width: 500px;
 }
-
-
 .gal-7 {
   width: 635px;
 }
@@ -273,7 +269,7 @@ footer {
 
 /* sombra al hacer hover sobre input */
 .galeria input:hover+figcaption {
-  background: rgba(87, 73, 81, 0.3);
+  background: rgba(159, 213, 231, 0.3);
 }
 
 .galeria input:checked~figure input {
@@ -285,9 +281,18 @@ figure {
 }
 
 @media screen and (min-width:521px) and (max-width: 720px) {
-  .galeria {
-    width: 540px;
-  }
+.gal-4 {
+  width: 420px;
+}
+.gal-5 {
+  width: 460px;
+}
+.gal-6{
+  width: 500px;
+}
+.gal-7 {
+  width: 540px;
+}
 
   .galeria figure {
     left: 40px;
@@ -308,9 +313,18 @@ figure {
 }
 
 @media screen and (max-width: 520px) {
-  .galeria {
-    width: 320px;
-  }
+.gal-4 {
+  width: 240px;
+}
+.gal-5 {
+  width:260 px;
+}
+.gal-6{
+  width: 280px;
+}
+.gal-7 {
+  width: 300px;
+}
 
   .galeria figure {
     left: 20px;
